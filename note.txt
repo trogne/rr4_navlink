@@ -1,0 +1,117 @@
+orig:
+https://github.com/gaearon/todos
+all lessons:
+https://github.com/gaearon/todos/branches/stale
+
+
+///////////////////////////////////
+https://hackernoon.com/hot-reload-all-the-things-ec0fed8ab0
+git clone git@github.com:mhaagens/hot-reload-all-the-things.git
+
+npm install -g webpack@^2.2.1 webpack-dev-server@^2.4.1 npm-run-all@^4.0.2
+
+npm link webpack webpack-dev-server npm-run-all
+npm run start
+
+NO BROWSER RELOAD :(    possible with "react-hot-loader"
+
+
+
+////////////////////////////////////////////
+SAME PROBLEM FOR ridhwaans AND gaearon : 
+    BROWSER RELOAD (react-hot-loader) not working WHEN USING nodemon:
+
+git clone git@github.com:ridhwaans/boilerstack.git
+
+D:\htdocs\egghead\boilerstack\multi-page-react-redux-node
+
+npm install
+cd client
+npm install
+
+npm i -g yarn
+
+
+yarn app
+OU
+npm run app
+
+
+http://localhost:5000/api/movies
+http://localhost:3000
+
+
+////////
+J'UTLISE ÇA ICI : 
+
+https://github.com/gaearon/react-hot-boilerplate
+
+git clone https://github.com/gaearon/react-hot-boilerplate.git
+cd react-hot-boilerplate/
+npm install
+npm start
+open http://localhost:3000
+
+npm run lint
+
+////////////////////////////////////
+
+
+
+03-03-egghead-javascript-redux-persisting-the-state-to-the-local-storage
+
+localStorage: 
+
+state = 
+{"todos": [{"id": 1232,"text": "asdad", "completed": "false"},{"id": 4422,"text": "xuxiasd", "completed": "true"}], "visibilityFilter": "SHOW_ALL"}
+
+npm install --save node-uuid
+
+node
+require('node-uuid').v4()
+    '7ceeab09-4292-4ed5-bc30-523ba70b3fb2'
+
+#generates a unique string id everytime
+
+
+#lodash includes a handy utility called throttle
+npm i --save lodash
+
+
+
+
+05-05-egghead-javascript-redux-adding-react-router-to-the-project
+
+//npm i --save react-router
+npm i --save react-router-dom
+#J'ESSAIE AVEC REACT ROUTER 4,   html5 history api... NO #/?_k-7iu...
+
+
+
+npm i --save react-router@^2.4.0
+
+
+Redux will be the source of truth for your data and React Router will be the source of truth for your URL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
