@@ -3,7 +3,7 @@ import Footer from './Footer';
 import AddTodo from './AddTodo';
 import VisibleTodoList from './VisibleTodoList';
 import { connect } from 'react-redux';
-import {withRouter} from 'react-router'
+import {withRouter} from 'react-router-dom'
 
 //const App = ({ params }) => (
 let App = ({ match: { params } }) => {

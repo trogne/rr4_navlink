@@ -7,10 +7,7 @@
     "dev": "nodemon server.js",
     "lint": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
-  },
+  "repository": "https://github.com/trogne",
   "keywords": [
     "react",
     "reactjs",
@@ -51,8 +48,7 @@
     "react-dom": "^0.14.6",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
-    "react-router-dom": "^4.1.1",
+    "react-router-dom": "^4.2.2",
     "redux": "^4.0.0"
-  },
-  "repository": "https://github.com/trogne"
+  }
 }
